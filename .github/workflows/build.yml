@@ -42,6 +42,7 @@ jobs:
         cd build
         # Download toolchain-trimui.cmake from the parent repository
         curl -L https://raw.githubusercontent.com/naveensiva/trimui-docker-toolchain/main/toolchain-trimui.cmake -o toolchain-trimui.cmake
+        cat toolchain-trimui.cmake
         cmake -DCMAKE_TOOLCHAIN_FILE=./toolchain-trimui.cmake ..
         make
 
