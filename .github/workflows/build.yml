@@ -37,15 +37,16 @@ jobs:
         ls -l ${TARGET_TOOLCHAIN_BASE_PATH}/bin/aarch64-linux-gnu-g++
 
     - name: Configure and Build
-      working-directory: ./workspace/Trimui-8bit-Numera
       run: |
         mkdir build
         cd build
-        cmake -DCMAKE_TOOLCHAIN_FILE=../../../toolchain-trimui.cmake ..
+        # Download toolchain-trimui.cmake from the parent repository
+        curl -L https://raw.githubusercontent.com/naveensiva/trimui-docker-toolchain/main/toolchain-trimui.cmake -o toolchain-trimui.cmake
+        cmake -DCMAKE_TOOLCHAIN_FILE=./toolchain-trimui.cmake ..
         make
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: calculator-trimui
-        path: ./workspace/Trimui-8bit-Numera/build/calculator
+        path: ./build/calculator
