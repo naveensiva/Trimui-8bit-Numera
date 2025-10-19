@@ -1,4 +1,6 @@
 
+toolchain-trimui.cmake
+
 # Build artifacts
 build/
 build_aarch64/

@@ -21,22 +21,32 @@ Follow these steps to compile 8bit-Numera for your TrimUI device:
 
 1.  **Navigate to the project root:**
     ```bash
-    cd /path/to/trimui-docker-toolchain/workspace/Trimui-8bit-Numera
+    cd /path/to/your/Trimui-8bit-Numera-repository
     ```
 
-2.  **Create a build directory and navigate into it:**
+2.  **Obtain the `toolchain-trimui.cmake` file:**
+    Copy the `toolchain-trimui.cmake` file from the `trimui-docker-toolchain` repository (or download it) into the root of your `Trimui-8bit-Numera` project directory.
+    For example, if `trimui-docker-toolchain` is a sibling directory:
+    ```bash
+    cp ../trimui-docker-toolchain/toolchain-trimui.cmake .
+    ```
+    Or, if downloading from GitHub (replace with the correct URL if different):
+    ```bash
+    curl -L https://raw.githubusercontent.com/naveensiva/trimui-docker-toolchain/main/toolchain-trimui.cmake -o toolchain-trimui.cmake
+    ```
+
+3.  **Create a build directory and navigate into it:**
     ```bash
     mkdir build
     cd build
     ```
 
-3.  **Configure the project with CMake, specifying the TrimUI toolchain:**
-    Ensure the `toolchain-trimui.cmake` file is accessible from your build environment. The path below assumes you are in the `workspace/Trimui-8bit-Numera/build` directory and `toolchain-trimui.cmake` is in the root of the `trimui-docker-toolchain` directory.
+4.  **Configure the project with CMake, specifying the TrimUI toolchain:**
     ```bash
-    cmake -DCMAKE_TOOLCHAIN_FILE=../../toolchain-trimui.cmake ..
+    cmake -DCMAKE_TOOLCHAIN_FILE=./toolchain-trimui.cmake ..
     ```
 
-4.  **Compile the project:**
+5.  **Compile the project:**
     ```bash
     make
     ```
