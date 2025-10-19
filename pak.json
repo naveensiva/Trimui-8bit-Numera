@@ -1,9 +1,9 @@
 {
-  "name": "Calculator",
+  "name": "8bit-Numera",
   "version": "v1.0.0",
   "type": "TOOL",
   "description": "A simple calculator application.",
-  "author": "Naveen siva gurumohanram",
+  "author": "Naveen Siva Gurumohanram",
   "repo_url": "git@github.com:naveensiva/Trimui-8bit-Numera.git",
   "release_filename": "8bitNumera.pak.zip",
   "platforms": [
