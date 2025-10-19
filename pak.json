@@ -6,6 +6,7 @@
   "author": "Naveen Siva Gurumohanram",
   "repo_url": "git@github.com:naveensiva/Trimui-8bit-Numera.git",
   "release_filename": "8bitNumera.pak.zip",
+  "screenshots": [".github/resources/screenshots/main_menu.jpg"],
   "platforms": [
     "tg5040"
   ]
