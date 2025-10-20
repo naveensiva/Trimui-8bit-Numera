@@ -4,7 +4,7 @@
   "type": "TOOL",
   "description": "A simple calculator application.",
   "author": "Naveen Siva Gurumohanram",
-  "repo_url": "git@github.com:naveensiva/Trimui-8bit-Numera.git",
+  "repo_url": "https://github.com/naveensiva/Trimui-8bit-Numera",
   "release_filename": "8bitNumera.pak.zip",
   "screenshots": [".github/resources/screenshots/main_menu.jpg"],
   "platforms": [
