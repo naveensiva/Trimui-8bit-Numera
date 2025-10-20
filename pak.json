@@ -5,7 +5,7 @@
   "description": "A simple calculator application.",
   "author": "Naveen Siva Gurumohanram",
   "repo_url": "https://github.com/naveensiva/Trimui-8bit-Numera",
-  "release_filename": "8bitNumera.pak.zip",
+  "release_filename": "8bit-Numera.pak.zip",
   "screenshots": [".github/resources/screenshots/main_menu.jpg"],
   "platforms": [
     "tg5040"
