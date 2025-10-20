@@ -11,6 +11,16 @@
 ## Screenshot
 <img width="1075" height="597" alt="image" src="https://github.com/user-attachments/assets/a4724aaf-5316-4ea8-a692-d1154bdbd665" />
 
+## Installation
+
+You don’t need to build from source if you just want to use the calculator!
+
+1. **Download** the latest `8bit-Numera.pak.zip` file from the [Releases](https://github.com/naveensiva/Trimui-8bit-Numera/releases) page.
+2. **Extract** the ZIP file on your computer — it will contain a folder named `8bit-Numera.pak`.
+3. **Copy** the `8bit-Numera.pak` folder to your SD card under: /Tools/\<platform\>/ Replace `<platform>` with your TrimUI model (for example, `tg-5040` for `TrimUI-Brick`).
+4. **Insert** the SD card back into your device.
+5. **Launch** *8bit-Numera* from the **Tools** section on your TrimUI device menu.
+
 ## Prerequisites
 To build 8bit-Numera from source, you will need:
 *   **CMake**: Version 3.10 or higher.
