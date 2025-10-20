@@ -8,6 +8,9 @@
 *   Optimized for TrimUI Brick and similar retro handhelds
 *   Simple and intuitive user interface
 
+## Screenshot
+<img width="1075" height="597" alt="image" src="https://github.com/user-attachments/assets/a4724aaf-5316-4ea8-a692-d1154bdbd665" />
+
 ## Prerequisites
 To build 8bit-Numera from source, you will need:
 *   **CMake**: Version 3.10 or higher.
